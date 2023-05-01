@@ -1696,6 +1696,280 @@ CaseUpRightShiftKeyRus.className = "keysUp hidden";
 RightShiftKeyRus.append(CaseUpRightShiftKeyRus);
 CaseUpRightShiftKeyRus.innerHTML = "Shift";
 
+/*Keyboard line 5*/
+
+/*LeftCtrlKey*/
+
+let LeftCtrlKey = document.createElement('div');
+line5.append(LeftCtrlKey);
+LeftCtrlKey.className = "key black-key";
+
+let LeftCtrlKeyEng = document.createElement('span');
+LeftCtrlKeyEng.className = "eng";
+LeftCtrlKey.append(LeftCtrlKeyEng);
+let CaseDownLeftCtrlKeyEng = document.createElement("span");
+CaseDownLeftCtrlKeyEng.className = "keysDown";
+LeftCtrlKeyEng.append(CaseDownLeftCtrlKeyEng);
+CaseDownLeftCtrlKeyEng.innerHTML = "Ctrl";
+let CaseUpLeftCtrlKeyEng = document.createElement("span");
+CaseUpLeftCtrlKeyEng.className = "keysUp hidden";
+LeftCtrlKeyEng.append(CaseUpLeftCtrlKeyEng);
+CaseUpLeftCtrlKeyEng.innerHTML = "Ctrl";
+
+let LeftCtrlKeyRus =document.createElement('span');
+LeftCtrlKeyRus.className = "rus hidden";
+LeftCtrlKey.append(LeftCtrlKeyRus);
+let CaseDownLeftCtrlKeyRus = document.createElement("span");
+CaseDownLeftCtrlKeyRus.className = "keysDown hidden";
+LeftCtrlKeyRus.append(CaseDownLeftCtrlKeyRus);
+CaseDownLeftCtrlKeyRus.innerHTML = "Ctrl";
+let CaseUpLeftCtrlKeyRus = document.createElement("span");
+CaseUpLeftCtrlKeyRus.className = "keysUp hidden";
+LeftCtrlKeyRus.append(CaseUpLeftCtrlKeyRus);
+CaseUpLeftCtrlKeyRus.innerHTML = "Ctrl";
+
+/*KeyWin*/
+
+let KeyWin = document.createElement('div');
+line5.append(KeyWin);
+KeyWin.className = "key black-key";
+
+let KeyWinEng = document.createElement('span');
+KeyWinEng.className = "eng";
+KeyWin.append(KeyWinEng);
+let CaseDownKeyWinEng = document.createElement("span");
+CaseDownKeyWinEng.className = "keysDown";
+KeyWinEng.append(CaseDownKeyWinEng);
+CaseDownKeyWinEng.innerHTML = "Win";
+let CaseUpKeyWinEng = document.createElement("span");
+CaseUpKeyWinEng.className = "keysUp hidden";
+KeyWinEng.append(CaseUpKeyWinEng);
+CaseUpKeyWinEng.innerHTML = "Win";
+
+let KeyWinRus = document.createElement('span');
+KeyWinRus.className = "rus hidden";
+KeyWin.append(KeyWinRus);
+let CaseDownKeyWinRus = document.createElement("span");
+CaseDownKeyWinRus.className = "keysDown hidden";
+KeyWinRus.append(CaseDownKeyWinRus);
+CaseDownKeyWinRus.innerHTML = "Win";
+let CaseUpKeyWinRus = document.createElement("span");
+CaseUpKeyWinRus.className = "keysUp hidden";
+KeyWinRus.append(CaseUpKeyWinRus);
+CaseUpKeyWinRus.innerHTML = "Win";
+
+/*LeftAltKey*/
+
+let LeftAltKey = document.createElement('div');
+line5.append(LeftAltKey);
+LeftAltKey.className = "key black-key";
+
+let LeftAltKeyEng = document.createElement('span');
+LeftAltKeyEng.className = "eng";
+LeftAltKey.append(LeftAltKeyEng);
+let CaseDownLeftAltKeyEng = document.createElement("span");
+CaseDownLeftAltKeyEng.className = "LeftAltKeyDown";
+LeftAltKeyEng.append(CaseDownLeftAltKeyEng);
+CaseDownLeftAltKeyEng.innerHTML = "Alt";
+let CaseUpLeftAltKeyEng = document.createElement("span");
+CaseUpLeftAltKeyEng.className = "LeftAltKeyUp hidden";
+LeftAltKeyEng.append(CaseUpLeftAltKeyEng);
+CaseUpLeftAltKeyEng.innerHTML = "Alt";
+
+let LeftAltKeyRus = document.createElement('span');
+LeftAltKeyRus.className = "rus hidden";
+LeftAltKey.append(LeftAltKeyRus);
+let CaseDownLeftAltKeyRus = document.createElement("span");
+CaseDownLeftAltKeyRus.className = "LeftAltKeyDown hidden";
+LeftAltKeyRus.append(CaseDownKeyQRus);
+CaseDownLeftAltKeyRus.innerHTML = "Alt";
+let CaseUpLeftAltKeyRus = document.createElement("span");
+CaseUpLeftAltKeyRus.className = "LeftAltKeyUp hidden";
+LeftAltKeyRus.append(CaseUpLeftAltKeyRus);
+CaseUpLeftAltKeyRus.innerHTML = "Alt";
+
+/*KeySpace*/
+
+let KeySpace = document.createElement('div');
+line5.append(KeySpace);
+KeySpace.className = "key space-key";
+
+let KeySpaceEng = document.createElement('span');
+KeySpaceEng.className = "eng";
+KeySpace.append(KeySpaceEng);
+let CaseDownKeySpaceEng = document.createElement("span");
+CaseDownKeySpaceEng.className = "keysDown";
+KeySpaceEng.append(CaseDownKeySpaceEng);
+CaseDownKeySpaceEng.innerHTML = " ";
+let CaseUpKeySpaceEng = document.createElement("span");
+CaseUpKeySpaceEng.className = "keysUp hidden";
+KeySpaceEng.append(CaseUpKeySpaceEng);
+CaseUpKeySpaceEng.innerHTML = " ";
+
+let KeySpaceRus = document.createElement('span');
+KeySpaceRus.className = "rus hidden";
+KeySpace.append(KeySpaceRus);
+let CaseDownKeySpaceRus = document.createElement("span");
+CaseDownKeySpaceRus.className = "keysDown hidden";
+KeySpaceRus.append(CaseDownKeySpaceRus);
+CaseDownKeySpaceRus.innerHTML = " ";
+let CaseUpKeySpaceRus = document.createElement("span");
+CaseUpKeySpaceRus.className = "keysUp hidden";
+KeySpaceRus.append(CaseUpKeySpaceRus);
+CaseUpKeySpaceRus.innerHTML = " ";
+
+/*RightAltKey*/
+
+let RightAltKey = document.createElement('div');
+line5.append(RightAltKey);
+RightAltKey.className = "key black-key";
+
+let RightAltKeyEng = document.createElement('span');
+RightAltKeyEng.className = "eng";
+RightAltKey.append(RightAltKeyEng);
+let CaseDownRightAltKeyEng = document.createElement("span");
+CaseDownRightAltKeyEng.className = "keysDown";
+RightAltKeyEng.append(CaseDownRightAltKeyEng);
+CaseDownRightAltKeyEng.innerHTML = "Alt";
+let CaseUpRightAltKeyEng = document.createElement("span");
+CaseUpRightAltKeyEng.className = "keysUp hidden";
+RightAltKeyEng.append(CaseUpRightAltKeyEng);
+CaseUpRightAltKeyEng.innerHTML = "Alt";
+
+let RightAltKeyRus = document.createElement('span');
+RightAltKeyRus.className = "rus hidden";
+RightAltKey.append(RightAltKeyRus);
+let CaseDownRightAltKeyRus = document.createElement("span");
+CaseDownRightAltKeyRus.className = "keysDown hidden";
+RightAltKeyRus.append(CaseDownRightAltKeyRus);
+CaseDownRightAltKeyRus.innerHTML = "Alt";
+let CaseUpRightAltKeyRus = document.createElement("span");
+CaseUpRightAltKeyRus.className = "keysUp hidden";
+RightAltKeyRus.append(CaseUpRightAltKeyRus);
+CaseUpRightAltKeyRus.innerHTML = "Alt";
+
+/*ArrowLeft*/
+
+let ArrowLeft = document.createElement('div');
+line5.append(ArrowLeft);
+ArrowLeft.className = "key black-key";
+
+let ArrowLeftEng = document.createElement('span');
+ArrowLeftEng.className = "eng";
+ArrowLeft.append(ArrowLeftEng);
+let CaseDownArrowLeftEng = document.createElement("span");
+CaseDownArrowLeftEng.className = "keysDown";
+ArrowLeftEng.append(CaseDownArrowLeftEng);
+CaseDownArrowLeftEng.innerHTML = "◄";
+let CaseUpArrowLeftEng = document.createElement("span");
+CaseUpArrowLeftEng.className = "keysUp hidden";
+ArrowLeftEng.append(CaseUpArrowLeftEng);
+CaseUpArrowLeftEng.innerHTML = "◄";
+
+let ArrowLeftRus = document.createElement('span');
+ArrowLeftRus.className = "rus hidden";
+ArrowLeft.append(ArrowLeftRus);
+let CaseDownArrowLeftRus = document.createElement("span");
+CaseDownArrowLeftRus.className = "keysDown hidden";
+ArrowLeftRus.append(CaseDownArrowLeftRus);
+CaseDownArrowLeftRus.innerHTML = "◄";
+let CaseUpArrowLeftRus = document.createElement("span");
+CaseUpArrowLeftRus.className = "keysUp hidden";
+ArrowLeftRus.append(CaseUpArrowLeftRus);
+CaseUpArrowLeftRus.innerHTML = "◄";
+
+/*ArrowDown*/
+
+let ArrowDown = document.createElement('div');
+line5.append(ArrowDown);
+ArrowDown.className = "key black-key";
+
+let ArrowDownEng = document.createElement('span');
+ArrowDownEng.className = "eng";
+ArrowDown.append(ArrowDownEng);
+let CaseDownArrowDownEng = document.createElement("span");
+CaseDownArrowDownEng.className = "keysDown";
+ArrowDownEng.append(CaseDownArrowDownEng);
+CaseDownArrowDownEng.innerHTML = "▼";
+let CaseUpArrowDownEng = document.createElement("span");
+CaseUpArrowDownEng.className = "keysUp hidden";
+ArrowDownEng.append(CaseUpArrowDownEng);
+CaseUpArrowDownEng.innerHTML = "▼";
+
+let ArrowDownRus = document.createElement('span');
+ArrowDownRus.className = "rus hidden";
+ArrowDown.append(ArrowDownRus);
+let CaseDownArrowDownRus = document.createElement("span");
+CaseDownArrowDownRus.className = "keysDown hidden";
+ArrowDownRus.append(CaseDownArrowDownRus);
+CaseDownArrowDownRus.innerHTML = "▼";
+let CaseUpArrowDownRus = document.createElement("span");
+CaseUpArrowDownRus.className = "keysUp hidden";
+ArrowDownRus.append(CaseUpArrowDownRus);
+CaseUpArrowDownRus.innerHTML = "▼";
+
+/*ArrowRight*/
+
+let ArrowRight = document.createElement('div');
+line5.append(ArrowRight);
+ArrowRight.className = "key black-key";
+
+let ArrowRightEng = document.createElement('span');
+ArrowRightEng.className = "eng";
+ArrowRight.append(ArrowRightEng);
+let CaseDownArrowRightEng = document.createElement("span");
+CaseDownArrowRightEng.className = "keysDown";
+ArrowRightEng.append(CaseDownArrowRightEng);
+CaseDownArrowRightEng.innerHTML = "►";
+let CaseUpArrowRightEng = document.createElement("span");
+CaseUpArrowRightEng.className = "keysUp hidden";
+ArrowRightEng.append(CaseUpArrowRightEng);
+CaseUpArrowRightEng.innerHTML = "►";
+
+let ArrowRightRus = document.createElement('span');
+ArrowRightRus.className = "rus hidden";
+ArrowRight.append(ArrowRightRus);
+let CaseDownArrowRightRus = document.createElement("span");
+CaseDownArrowRightRus.className = "keysDown hidden";
+ArrowRightRus.append(CaseDownArrowRightRus);
+CaseDownArrowRightRus.innerHTML = "►";
+let CaseUpArrowRightRus = document.createElement("span");
+CaseUpArrowRightRus.className = "keysUp hidden";
+ArrowRightRus.append(CaseUpArrowRightRus);
+CaseUpArrowRightRus.innerHTML = "►";
+
+/*RightCtrlKey*/
+
+let RightCtrlKey = document.createElement('div');
+line5.append(RightCtrlKey);
+RightCtrlKey.className = "key black-key";
+
+let RightCtrlKeyEng = document.createElement('span');
+RightCtrlKeyEng.className = "eng";
+RightCtrlKey.append(RightCtrlKeyEng);
+let CaseDownRightCtrlKeyEng = document.createElement("span");
+CaseDownRightCtrlKeyEng.className = "keysDown";
+RightCtrlKeyEng.append(CaseDownRightCtrlKeyEng);
+CaseDownRightCtrlKeyEng.innerHTML = "Ctrl";
+let CaseUpRightCtrlKeyEng = document.createElement("span");
+CaseUpRightCtrlKeyEng.className = "keysUp hidden";
+RightCtrlKeyEng.append(CaseUpRightCtrlKeyEng);
+CaseUpRightCtrlKeyEng.innerHTML = "Ctrl";
+
+let RightCtrlKeyRus = document.createElement('span');
+RightCtrlKeyRus.className = "rus hidden";
+RightCtrlKey.append(RightCtrlKeyRus);
+let CaseDownRightCtrlKeyRus = document.createElement("span");
+CaseDownRightCtrlKeyRus.className = "keysDown hidden";
+RightCtrlKeyRus.append(CaseDownRightCtrlKeyRus);
+CaseDownRightCtrlKeyRus.innerHTML = "Ctrl";
+let CaseUpRightCtrlKeyRus = document.createElement("span");
+CaseUpRightCtrlKeyRus.className = "keysUp hidden";
+RightCtrlKeyRus.append(CaseUpRightCtrlKeyRus);
+CaseUpRightCtrlKeyRus.innerHTML = "Ctrl";
+
+
+
 
 
 

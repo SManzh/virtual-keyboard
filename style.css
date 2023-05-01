@@ -46,6 +46,15 @@
   transition: border-radius 0.3s, background-color 0.3s;
 }
 
+.key:hover {
+  background: #79aa89;
+}
+
+.key:active {
+  background-color: #2cfd72;
+  border-radius: 50px;
+}
+
 .keysDown {
   display: block;
 }
@@ -60,6 +69,10 @@
 
 .medium-key {
   width: 50px;
+}
+
+.space-key {
+  width: 330px;
 }
 
 .black-key {
