@@ -1968,22 +1968,7 @@ CaseUpRightCtrlKeyRus.className = "keysUp hidden";
 RightCtrlKeyRus.append(CaseUpRightCtrlKeyRus);
 CaseUpRightCtrlKeyRus.innerHTML = "Ctrl";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Keyboard interactions*/
 
 
 
