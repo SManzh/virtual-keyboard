@@ -912,7 +912,7 @@ CaseUpKeyDeleteRus.className = "keysUp hidden";
 KeyDeleteRus.append(CaseUpKeyDeleteRus);
 CaseUpKeyDeleteRus.innerHTML = "Del";
 
-/*Keyboard line 2*/
+/*Keyboard line 3*/
 
 /*CapsLock*/
 
@@ -1304,7 +1304,397 @@ CaseUpKeyEnterRus.className = "keysUp hidden";
 KeyEnterRus.append(CaseUpKeyEnterRus);
 CaseUpKeyEnterRus.innerHTML = "Enter";
 
+/*Keyboard line 4*/
 
+/*LeftShiftKey*/
+
+let LeftShiftKey = document.createElement('div');
+line4.append(LeftShiftKey);
+LeftShiftKey.className = "key wide-key black-key";
+
+let LeftShiftKeyEng = document.createElement('span');
+LeftShiftKeyEng.className = "eng";
+LeftShiftKey.append(LeftShiftKeyEng);
+let CaseDownLeftShiftKeyEng = document.createElement("span");
+CaseDownLeftShiftKeyEng.className = "keysDown";
+LeftShiftKeyEng.append(CaseDownLeftShiftKeyEng);
+CaseDownLeftShiftKeyEng.innerHTML = "Shift";
+let CaseUpLeftShiftKeyEng = document.createElement("span");
+CaseUpLeftShiftKeyEng.className = "keysUp hidden";
+LeftShiftKeyEng.append(CaseUpLeftShiftKeyEng);
+CaseUpLeftShiftKeyEng.innerHTML = "Shift";
+
+let LeftShiftKeyRus =document.createElement('span');
+LeftShiftKeyRus.className = "rus hidden";
+LeftShiftKey.append(LeftShiftKeyRus);
+let CaseDownLeftShiftKeyRus = document.createElement("span");
+CaseDownLeftShiftKeyRus.className = "keysDown hidden";
+LeftShiftKeyRus.append(CaseDownLeftShiftKeyRus);
+CaseDownLeftShiftKeyRus.innerHTML = "Shift";
+let CaseUpLeftShiftKeyRus = document.createElement("span");
+CaseUpLeftShiftKeyRus.className = "keysUp hidden";
+LeftShiftKeyRus.append(CaseUpLeftShiftKeyRus);
+CaseUpLeftShiftKeyRus.innerHTML = "Shift";
+
+/*KeyZ*/
+
+let KeyZ = document.createElement('div');
+line4.append(KeyZ);
+KeyZ.className = "key";
+
+let KeyZEng = document.createElement('span');
+KeyZEng.className = "eng";
+KeyZ.append(KeyZEng);
+let CaseDownKeyZEng = document.createElement("span");
+CaseDownKeyZEng.className = "keysDown";
+KeyZEng.append(CaseDownKeyZEng);
+CaseDownKeyZEng.innerHTML = "z";
+let CaseUpKeyZEng = document.createElement("span");
+CaseUpKeyZEng.className = "keysUp hidden";
+KeyZEng.append(CaseUpKeyZEng);
+CaseUpKeyZEng.innerHTML = "Z";
+
+let KeyZRus = document.createElement('span');
+KeyZRus.className = "rus hidden";
+KeyZ.append(KeyZRus);
+let CaseDownKeyZRus = document.createElement("span");
+CaseDownKeyZRus.className = "keysDown hidden";
+KeyZRus.append(CaseDownKeyZRus);
+CaseDownKeyZRus.innerHTML = "я";
+let CaseUpKeyZRus = document.createElement("span");
+CaseUpKeyZRus.className = "keysUp hidden";
+KeyZRus.append(CaseUpKeyZRus);
+CaseUpKeyZRus.innerHTML = "Я";
+
+/*KeyX*/
+
+let KeyX = document.createElement('div');
+line4.append(KeyX);
+KeyX.className = "key";
+
+let KeyXEng = document.createElement('span');
+KeyXEng.className = "eng";
+KeyX.append(KeyXEng);
+let CaseDownKeyXEng = document.createElement("span");
+CaseDownKeyXEng.className = "KeyXDown";
+KeyXEng.append(CaseDownKeyXEng);
+CaseDownKeyXEng.innerHTML = "x";
+let CaseUpKeyXEng = document.createElement("span");
+CaseUpKeyXEng.className = "KeyXUp hidden";
+KeyXEng.append(CaseUpKeyXEng);
+CaseUpKeyXEng.innerHTML = "X";
+
+let KeyXRus = document.createElement('span');
+KeyXRus.className = "rus hidden";
+KeyX.append(KeyXRus);
+let CaseDownKeyXRus = document.createElement("span");
+CaseDownKeyXRus.className = "KeyXDown hidden";
+KeyXRus.append(CaseDownKeyQRus);
+CaseDownKeyXRus.innerHTML = "ч";
+let CaseUpKeyXRus = document.createElement("span");
+CaseUpKeyXRus.className = "KeyXUp hidden";
+KeyXRus.append(CaseUpKeyXRus);
+CaseUpKeyXRus.innerHTML = "Ч";
+
+/*KeyC*/
+
+let KeyC = document.createElement('div');
+line4.append(KeyC);
+KeyC.className = "key";
+
+let KeyCEng = document.createElement('span');
+KeyCEng.className = "eng";
+KeyC.append(KeyCEng);
+let CaseDownKeyCEng = document.createElement("span");
+CaseDownKeyCEng.className = "keysDown";
+KeyCEng.append(CaseDownKeyCEng);
+CaseDownKeyCEng.innerHTML = "c";
+let CaseUpKeyCEng = document.createElement("span");
+CaseUpKeyCEng.className = "keysUp hidden";
+KeyCEng.append(CaseUpKeyCEng);
+CaseUpKeyCEng.innerHTML = "C";
+
+let KeyCRus = document.createElement('span');
+KeyCRus.className = "rus hidden";
+KeyC.append(KeyCRus);
+let CaseDownKeyCRus = document.createElement("span");
+CaseDownKeyCRus.className = "keysDown hidden";
+KeyCRus.append(CaseDownKeyCRus);
+CaseDownKeyCRus.innerHTML = "с";
+let CaseUpKeyCRus = document.createElement("span");
+CaseUpKeyCRus.className = "keysUp hidden";
+KeyCRus.append(CaseUpKeyCRus);
+CaseUpKeyCRus.innerHTML = "С";
+
+/*KeyV*/
+
+let KeyV = document.createElement('div');
+line4.append(KeyV);
+KeyV.className = "key";
+
+let KeyVEng = document.createElement('span');
+KeyVEng.className = "eng";
+KeyV.append(KeyVEng);
+let CaseDownKeyVEng = document.createElement("span");
+CaseDownKeyVEng.className = "keysDown";
+KeyVEng.append(CaseDownKeyVEng);
+CaseDownKeyVEng.innerHTML = "v";
+let CaseUpKeyVEng = document.createElement("span");
+CaseUpKeyVEng.className = "keysUp hidden";
+KeyVEng.append(CaseUpKeyVEng);
+CaseUpKeyVEng.innerHTML = "V";
+
+let KeyVRus = document.createElement('span');
+KeyVRus.className = "rus hidden";
+KeyV.append(KeyVRus);
+let CaseDownKeyVRus = document.createElement("span");
+CaseDownKeyVRus.className = "keysDown hidden";
+KeyVRus.append(CaseDownKeyVRus);
+CaseDownKeyVRus.innerHTML = "м";
+let CaseUpKeyVRus = document.createElement("span");
+CaseUpKeyVRus.className = "keysUp hidden";
+KeyVRus.append(CaseUpKeyVRus);
+CaseUpKeyVRus.innerHTML = "М";
+
+/*KeyB*/
+
+let KeyB = document.createElement('div');
+line4.append(KeyB);
+KeyB.className = "key";
+
+let KeyBEng = document.createElement('span');
+KeyBEng.className = "eng";
+KeyB.append(KeyBEng);
+let CaseDownKeyBEng = document.createElement("span");
+CaseDownKeyBEng.className = "keysDown";
+KeyBEng.append(CaseDownKeyBEng);
+CaseDownKeyBEng.innerHTML = "b";
+let CaseUpKeyBEng = document.createElement("span");
+CaseUpKeyBEng.className = "keysUp hidden";
+KeyBEng.append(CaseUpKeyBEng);
+CaseUpKeyBEng.innerHTML = "B";
+
+let KeyBRus = document.createElement('span');
+KeyBRus.className = "rus hidden";
+KeyB.append(KeyBRus);
+let CaseDownKeyBRus = document.createElement("span");
+CaseDownKeyBRus.className = "keysDown hidden";
+KeyBRus.append(CaseDownKeyBRus);
+CaseDownKeyBRus.innerHTML = "и";
+let CaseUpKeyBRus = document.createElement("span");
+CaseUpKeyBRus.className = "keysUp hidden";
+KeyBRus.append(CaseUpKeyBRus);
+CaseUpKeyBRus.innerHTML = "И";
+
+/*KeyN*/
+
+let KeyN = document.createElement('div');
+line4.append(KeyN);
+KeyN.className = "key";
+
+let KeyNEng = document.createElement('span');
+KeyNEng.className = "eng";
+KeyN.append(KeyNEng);
+let CaseDownKeyNEng = document.createElement("span");
+CaseDownKeyNEng.className = "keysDown";
+KeyNEng.append(CaseDownKeyNEng);
+CaseDownKeyNEng.innerHTML = "n";
+let CaseUpKeyNEng = document.createElement("span");
+CaseUpKeyNEng.className = "keysUp hidden";
+KeyNEng.append(CaseUpKeyNEng);
+CaseUpKeyNEng.innerHTML = "N";
+
+let KeyNRus = document.createElement('span');
+KeyNRus.className = "rus hidden";
+KeyN.append(KeyNRus);
+let CaseDownKeyNRus = document.createElement("span");
+CaseDownKeyNRus.className = "keysDown hidden";
+KeyNRus.append(CaseDownKeyNRus);
+CaseDownKeyNRus.innerHTML = "т";
+let CaseUpKeyNRus = document.createElement("span");
+CaseUpKeyNRus.className = "keysUp hidden";
+KeyNRus.append(CaseUpKeyNRus);
+CaseUpKeyNRus.innerHTML = "Т";
+
+/*KeyM*/
+
+let KeyM = document.createElement('div');
+line4.append(KeyM);
+KeyM.className = "key";
+
+let KeyMEng = document.createElement('span');
+KeyMEng.className = "eng";
+KeyM.append(KeyMEng);
+let CaseDownKeyMEng = document.createElement("span");
+CaseDownKeyMEng.className = "keysDown";
+KeyMEng.append(CaseDownKeyMEng);
+CaseDownKeyMEng.innerHTML = "m";
+let CaseUpKeyMEng = document.createElement("span");
+CaseUpKeyMEng.className = "keysUp hidden";
+KeyMEng.append(CaseUpKeyMEng);
+CaseUpKeyMEng.innerHTML = "M";
+
+let KeyMRus = document.createElement('span');
+KeyMRus.className = "rus hidden";
+KeyM.append(KeyMRus);
+let CaseDownKeyMRus = document.createElement("span");
+CaseDownKeyMRus.className = "keysDown hidden";
+KeyMRus.append(CaseDownKeyMRus);
+CaseDownKeyMRus.innerHTML = "ь";
+let CaseUpKeyMRus = document.createElement("span");
+CaseUpKeyMRus.className = "keysUp hidden";
+KeyMRus.append(CaseUpKeyMRus);
+CaseUpKeyMRus.innerHTML = "Ь";
+
+/*KeyComma*/
+
+let KeyComma = document.createElement('div');
+line4.append(KeyComma);
+KeyComma.className = "key";
+
+let KeyCommaEng = document.createElement('span');
+KeyCommaEng.className = "eng";
+KeyComma.append(KeyCommaEng);
+let CaseDownKeyCommaEng = document.createElement("span");
+CaseDownKeyCommaEng.className = "keysDown";
+KeyCommaEng.append(CaseDownKeyCommaEng);
+CaseDownKeyCommaEng.innerHTML = ",";
+let CaseUpKeyCommaEng = document.createElement("span");
+CaseUpKeyCommaEng.className = "keysUp hidden";
+KeyCommaEng.append(CaseUpKeyCommaEng);
+CaseUpKeyCommaEng.innerHTML = "<";
+
+let KeyCommaRus = document.createElement('span');
+KeyCommaRus.className = "rus hidden";
+KeyComma.append(KeyCommaRus);
+let CaseDownKeyCommaRus = document.createElement("span");
+CaseDownKeyCommaRus.className = "keysDown hidden";
+KeyCommaRus.append(CaseDownKeyCommaRus);
+CaseDownKeyCommaRus.innerHTML = "б";
+let CaseUpKeyCommaRus = document.createElement("span");
+CaseUpKeyCommaRus.className = "keysUp hidden";
+KeyCommaRus.append(CaseUpKeyCommaRus);
+CaseUpKeyCommaRus.innerHTML = "Б";
+
+/*KeyDot*/
+
+let KeyDot = document.createElement('div');
+line4.append(KeyDot);
+KeyDot.className = "key";
+
+let KeyDotEng = document.createElement('span');
+KeyDotEng.className = "eng";
+KeyDot.append(KeyDotEng);
+let CaseDownKeyDotEng = document.createElement("span");
+CaseDownKeyDotEng.className = "keysDown";
+KeyDotEng.append(CaseDownKeyDotEng);
+CaseDownKeyDotEng.innerHTML = ".";
+let CaseUpKeyDotEng = document.createElement("span");
+CaseUpKeyDotEng.className = "keysUp hidden";
+KeyDotEng.append(CaseUpKeyDotEng);
+CaseUpKeyDotEng.innerHTML = ">";
+
+let KeyDotRus = document.createElement('span');
+KeyDotRus.className = "rus hidden";
+KeyDot.append(KeyDotRus);
+let CaseDownKeyDotRus = document.createElement("span");
+CaseDownKeyDotRus.className = "keysDown hidden";
+KeyDotRus.append(CaseDownKeyDotRus);
+CaseDownKeyDotRus.innerHTML = "ю";
+let CaseUpKeyDotRus = document.createElement("span");
+CaseUpKeyDotRus.className = "keysUp hidden";
+KeyDotRus.append(CaseUpKeyDotRus);
+CaseUpKeyDotRus.innerHTML = "Ю";
+
+/*KeySlash*/
+
+let KeySlash = document.createElement('div');
+line4.append(KeySlash);
+KeySlash.className = "key";
+
+let KeySlashEng = document.createElement('span');
+KeySlashEng.className = "eng";
+KeySlash.append(KeySlashEng);
+let CaseDownKeySlashEng = document.createElement("span");
+CaseDownKeySlashEng.className = "keysDown";
+KeySlashEng.append(CaseDownKeySlashEng);
+CaseDownKeySlashEng.innerHTML = "/";
+let CaseUpKeySlashEng = document.createElement("span");
+CaseUpKeySlashEng.className = "keysUp hidden";
+KeySlashEng.append(CaseUpKeySlashEng);
+CaseUpKeySlashEng.innerHTML = "?";
+
+let KeySlashRus = document.createElement('span');
+KeySlashRus.className = "rus hidden";
+KeySlash.append(KeySlashRus);
+let CaseDownKeySlashRus = document.createElement("span");
+CaseDownKeySlashRus.className = "keysDown hidden";
+KeySlashRus.append(CaseDownKeySlashRus);
+CaseDownKeySlashRus.innerHTML = ".";
+let CaseUpKeySlashRus = document.createElement("span");
+CaseUpKeySlashRus.className = "keysUp hidden";
+KeySlashRus.append(CaseUpKeySlashRus);
+CaseUpKeySlashRus.innerHTML = ",";
+
+/*ArrowUp*/
+
+let ArrowUp = document.createElement('div');
+line4.append(ArrowUp);
+ArrowUp.className = "key black-key";
+
+let ArrowUpEng = document.createElement('span');
+ArrowUpEng.className = "eng";
+ArrowUp.append(ArrowUpEng);
+let CaseDownArrowUpEng = document.createElement("span");
+CaseDownArrowUpEng.className = "keysDown";
+ArrowUpEng.append(CaseDownArrowUpEng);
+CaseDownArrowUpEng.innerHTML = "▲";
+let CaseUpArrowUpEng = document.createElement("span");
+CaseUpArrowUpEng.className = "keysUp hidden";
+ArrowUpEng.append(CaseUpArrowUpEng);
+CaseUpArrowUpEng.innerHTML = "▲";
+
+let ArrowUpRus = document.createElement('span');
+ArrowUpRus.className = "rus hidden";
+ArrowUp.append(ArrowUpRus);
+let CaseDownArrowUpRus = document.createElement("span");
+CaseDownArrowUpRus.className = "keysDown hidden";
+ArrowUpRus.append(CaseDownArrowUpRus);
+CaseDownArrowUpRus.innerHTML = "▲";
+let CaseUpArrowUpRus = document.createElement("span");
+CaseUpArrowUpRus.className = "keysUp hidden";
+ArrowUpRus.append(CaseUpArrowUpRus);
+CaseUpArrowUpRus.innerHTML = "▲";
+
+/*RightShiftKey*/
+
+let RightShiftKey = document.createElement('div');
+line4.append(RightShiftKey);
+RightShiftKey.className = "key semi-wide-key black-key";
+
+let RightShiftKeyEng = document.createElement('span');
+RightShiftKeyEng.className = "eng";
+RightShiftKey.append(RightShiftKeyEng);
+let CaseDownRightShiftKeyEng = document.createElement("span");
+CaseDownRightShiftKeyEng.className = "keysDown";
+RightShiftKeyEng.append(CaseDownRightShiftKeyEng);
+CaseDownRightShiftKeyEng.innerHTML = "Shift";
+let CaseUpRightShiftKeyEng = document.createElement("span");
+CaseUpRightShiftKeyEng.className = "keysUp hidden";
+RightShiftKeyEng.append(CaseUpRightShiftKeyEng);
+CaseUpRightShiftKeyEng.innerHTML = "Shift";
+
+let RightShiftKeyRus = document.createElement('span');
+RightShiftKeyRus.className = "rus hidden";
+RightShiftKey.append(RightShiftKeyRus);
+let CaseDownRightShiftKeyRus = document.createElement("span");
+CaseDownRightShiftKeyRus.className = "keysDown hidden";
+RightShiftKeyRus.append(CaseDownRightShiftKeyRus);
+CaseDownRightShiftKeyRus.innerHTML = "Shift";
+let CaseUpRightShiftKeyRus = document.createElement("span");
+CaseUpRightShiftKeyRus.className = "keysUp hidden";
+RightShiftKeyRus.append(CaseUpRightShiftKeyRus);
+CaseUpRightShiftKeyRus.innerHTML = "Shift";
 
 
 
